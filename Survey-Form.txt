@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lanf="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <main>
+
+    <body>
+        
+        <div class="background">
+        <div class="container">
+        <div class="header"></div>
+
+    <h1 id="title">FaithGasmenCODECAMP Survey Form
+        </h1> 
+    <div class="ty">
+        
+        <p id="description"> 
+            <em> Thank you for using my simple website</em>
+       </p></div>
+
+   <div class="form-group">
+    <form id="survey-form" >
+     <label id="name-label" for="Name">Name</label>
+        <input id="name" 
+        type="text"
+        class="textname"
+        placeholder="Enter your name here..." 
+        required/> </form>
+   </div>
+
+     <div class="form-group">
+        <form id="survey-form" >
+     <label id="email-label" for="Email">Email</label>
+        <input id="email" 
+            type="email"
+            class="textemail" 
+            placeholder="Enter your email here..."
+            required/></form>
+            </div>
+
+            <div class="number">
+                <form id="survey-form" >
+            <label id="number-label" for="number">Number</label>
+            <input id="number" 
+                    min="0"
+                    max="99"
+                type="number"
+                class="textemail" 
+                placeholder="09..."
+                required/>  
+                </form>    
+        </div>
+
+       <div class="form-group">
+           <form id="survey-form">
+          <p> <strong>What is your current role in life?</strong> </p>
+
+        <select id="dropdown">
+            <option>Student</option>
+            <option>Employee</option>
+            <option>Parent</option>
+            <option>others</option>
+        </select>
+
+        <div class="form-group">
+        <form id="survey-form"></form>
+       <p> <strong>Would you recommend my webiste to others?</strong></p>
+       <label>
+       <input type="radio" value="yes" name="recommend" >Yes</label>
+       <label>  <input type="radio" value="no" name="recommend" >No
+    </label></form>
+    
+
+    <div class="form-group">
+        <form id="survey-form"></form>
+        <p> <strong>What is your favorite feature in my Website?</strong></p>
+
+       <label>
+        <input type="checkbox" value="exercises">Exercises
+    </label>
+    <label>
+        <input type="checkbox" value="projects">Projects
+    </label>
+    <label>
+        <input type="checkbox" value="quizes">Quizes
+    </label>
+ 
+
+    <div class="form-group">
+    <form id="survey-form"></form>
+    <p>ADD COMMENTS/SUGGESTIONS</p>
+    <textarea id="comments" name="comments" class="input-textarea" placeholder="Any suggestion or Comments leave here..."></textarea>
+
+    <div class="form-group">
+    <form id="survey-form"></form>
+    
+    <button id="submit" type="submit">SUBMIT</button>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+        </div></div>
+
+
+
+        </main> 
+   </body>
+</html>
+
+
+				CSS:
+
+main { 
+    
+    width: 80%;
+    background-color: #006B38FF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+h1{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;}
+
+.form-group { 
+    text-align: center;}
+
+p {
+    text-align: center;}
+
+.ty {font-family: 'Courier New', Courier, monospace;
+       font-size: large;
+    color: ;}    
+
+IMG{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ BODY { font-family: 'Poppins', sans-serif;
+     background-image: 
+  url(https://img.freepik.com/free-vector/background-zeros-ones-green-colors_444390-6294.jpg) ;
+  background-color: gray;}
+
+button { border-color: black;}
+
+textarea { 
+    border-color: black; }
+
+input {  border-color: black;}
+
+select { border-color: black; }
+
+    .number {
+        text-align: center;}
