@@ -1,5 +1,5 @@
 # FaithFiles
-Faith's simple programssss
+Faith's simple programs
 
 This will serve as my memories when I got the interest in Web Development 
 
